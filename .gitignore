@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 가상환경
+venv/
+.venv/
+env/
+ENV/
+
+# IDE / 에디터
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 비밀/키 파일 (절대 커밋 금지)
+*.pem
+*.key
+*.crt
+*.pfx
+.env
+.env.*
+!.env.example
+secrets/
+aws-credentials*
+credentials*
